@@ -40,8 +40,8 @@ def clear_clicked():
 
 
 l0=Label(root,text="Admin Login Screen")
-l1=Label(root,text="Enter Username: ")
-l2=Label(root,text="Enter Password: ")
+l1=Label(root,text="Enter Username")
+l2=Label(root,text="Enter Password")
 t1=Entry(root,textvariable=txtuname)
 t2=Entry(root,textvariable=txtpass,show="*")
 l0.place(x=250,y=50)
