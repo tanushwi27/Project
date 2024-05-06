@@ -4,7 +4,7 @@ import sqlite3
 import os
 
 root=Tk()
-root.geometry("700x600")
+root.geometry("900x900")
 root.title("Admin Login Screen")
 
 txtaname=StringVar()
@@ -39,9 +39,9 @@ def clear_clicked():
     txtpass.set("")
 
 
-l0=Label(root,text="Login Screen")
-l1=Label(root,text="Enter Username")
-l2=Label(root,text="Enter Password")
+l0=Label(root,text="Admin Login Screen")
+l1=Label(root,text="Enter Username: ")
+l2=Label(root,text="Enter Password: ")
 t1=Entry(root,textvariable=txtuname)
 t2=Entry(root,textvariable=txtpass,show="*")
 l0.place(x=250,y=50)
